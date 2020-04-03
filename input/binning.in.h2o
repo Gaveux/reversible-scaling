@@ -1,0 +1,18 @@
+header line for binning input file
+Specify the number of bond lengths, bond angles and dihedrals to be binned (BL BA D) (-1 means bin all)
+-1 1 0
+bond length parameters (in bohr)(min max num_x) 
+0 5 100
+bond angle bin parameters (in degrees)(min max num_x)
+0 180 100
+dihedral angle bin parameters (in degrees) (min max num_x)
+-180 180 60
+
+Specify which atoms are to be used to bin the dihedrals and bond angles and which bond lengths are to binned
+BL
+
+BA 
+2 1 3
+
+D
+

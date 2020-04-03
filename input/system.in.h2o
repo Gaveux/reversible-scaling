@@ -1,0 +1,20 @@
+IN_SYSTEM file for h2o
+enter the system dimensionality
+3
+enter the number of atoms
+3
+Specify the system Geometry (Element, Mass, Position for each atom on a seperate line)
+O   16.01       0.0     0.0     0.0
+H   1.000785    2.0     0.0     0.0
+H   1.000785    0.0     2.0     0.0
+The number of atoms in fragments a and b respectively are
+3,0
+The atom identification numbers in fragment a are
+1,2,3
+The atom identification numbers in fragment b are
+
+enter the bond lengths, in order, which give the cutoff for a
+real bond to exist between atoms i and j (units are bohr)
+5.0
+5.0
+5.0

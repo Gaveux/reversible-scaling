@@ -1,0 +1,48 @@
+#Specify the core simulation parameters
+Number of beads
+26
+Temperature
+700
+Number of blocks, Blocks to equilibrium, steps per block
+100,50,100
+Write out geometries at the end of each block (0=no, 1=yes)
+1
+Restart (y/n)
+n
+Maximum step size for initial displacements
+0.01
+
+#speciy the trial move parameters
+Trial Move Type (0=bead + atom move, 1=staging+atom move)
+1
+Atomic displacement parameter(move acceptance)
+1.8
+Displacement factor for bead moves
+0.1
+Number of beads to displace per step(staging acceptance)
+12
+Annealing schedule parameters (y-intercept, gradient)
+1.702619, 0.000157142 
+
+#Specify the action used
+Action type (0=Primitive Action, 1=Takahashi-Imada Action, 2=Chin Action 3=Suzuki-Chin Action)
+2
+t0 Parameter for chin action
+0.01
+a1 Parameter for chin action
+0.01
+
+#Read in the Free Energy Calculation Parameters - only used if built with FREE_ENERGY set
+Compute Free Energy (0 = no, 1=yes)
+1
+Compute the probability distributions and energies (0=no,1=yes)
+1
+Free Energy Type (TI_Class_Quan = 0, TI_Ref_Pot=1, RS = 2)
+2
+lambda (Only used for the TI techniques) (takes values on [0,1]
+0.0
+Initial Temperature (used for the reversible scaling simulations)
+100
+Final Temperature(used for the reversible scaling simulations)
+200
+

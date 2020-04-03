@@ -1,0 +1,18 @@
+# The fortran modules provided by this target.
+provides
+ actions
+ annealing_schedule
+ binning
+ estimator_class
+ free_energy
+ interpolation
+ molecule_specs
+ moves
+ mt19937
+ path_integral_monte_carlo
+ pimc_structures
+ potential_h2o
+ potential_hcn
+ potential_msi
+ potential_nh3
+ vars_class

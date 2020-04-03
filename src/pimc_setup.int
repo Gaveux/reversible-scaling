@@ -1,0 +1,16 @@
+
+interface
+  subroutine pimc_setup(sys,pimc,Beads,OldBeads)
+
+    use molecule_specs
+    use pimc_structures
+    use mt19937
+
+    type(molsysdat), intent(in) :: sys
+    type(pimc_par), intent(inout) :: pimc
+    type(pimc_particle), dimension(:), pointer :: Beads
+    type(pimc_particle), dimension(:), pointer :: OldBeads
+
+  end subroutine pimc_setup
+end interface
+
